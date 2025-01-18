@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assignment</title>
+    <style>
+        body {
+            background-image: url(Free-Photos-Light-Blue-Backgrounds.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <font face="monospace" size="5" color="white">
+            <h1>Contact Form</h1>
+        </font>
+        <form action="">
+            <fieldset style="width: 600px; border-radius: 10px; background: transparent;">
+                <font face="sanserif" size="4" color="white">
+                    <label for="fname">Your Name:</label>
+                </font>
+                <input type="text" name="fname" placeholder="Enter Your Name" required> &nbsp;
+                <input type="text" name="fname" required><br><br>
+
+                <font face="sanserif" size="4" color="white">
+                    <label for="email">Your Email:</label>
+                </font>
+                <input type="email" name="email" placeholder="Enter Your Email" size="45" maxlength="25"><br><br>
+
+                <font face="sanserif" size="4" color="white">
+                    <label for="phone">Phone Number:</label>
+                </font>
+                <input type="tel" name="phone" placeholder="Enter Your Phone Number" size="40" maxlength="11"
+                    required><br><br>
+                <font face="sanserif" size="4" color="white">
+                    <label for="message">Message Subject:</label>
+                </font>
+                <input type="text" name="message" placeholder="Other" size="38"> <br><br>
+
+                <font face="sanserif" size="4" color="white">
+                    <label for="gender">Gender: </label>
+                </font>
+                <input type="radio" name="gender">
+                <label>Female</label>
+                <input type="radio" name="gender">
+                <label>Male</label>
+                <br> <br>
+
+                <font face="sanserif" size="4" color="white">
+                    <label for="DOB">Date of Birth: </label>
+                </font>
+                <input type="date" name="date" required> <br><br>
+
+                <font face="sanserif" size="4" color="white">
+                    <label for="Course">Courses:</label> &nbsp; &nbsp;
+                </font>
+                <label for="course">Graphic Designing</label>
+                <input type="checkbox">
+
+                <label for="course">Ms Office</label>
+                <input type="checkbox"> <br> <br>
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                <label for="course">Amazon</label>
+                <input type="checkbox">
+
+                <label for="course">Digital Marketing</label>
+                <input type="checkbox"> <br><br>
+
+                <font face="sanserif" size="4" color="white">
+                    <label for="message">Message:</label>
+                </font>
+                <textarea name="message" placeholder="Enter Your Message" cols="40" rows="5"></textarea><br><br>
+
+                <font face="sanserif" size="4" color="white">
+                    <label for="country">Verification: </label>
+                </font>
+                <select name="country">
+                    <option value="Pakistan">Pakistan</option>
+                    <option value="UAE">UAE</option>
+                    <option value="USA" selected>USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Landon">Landon</option>
+                </select> <br><br>
+
+                <hr size="1" width="500px">
+
+                <input type="submit"
+                    style="width: 100px; height: 30px; border-radius: 5px; border-color: white; background-color: transparent; cursor: pointer;">
+            </fieldset>
+        </form>
+    </center>
+</body>
+
+</html>
